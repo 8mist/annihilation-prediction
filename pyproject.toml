@@ -1,0 +1,19 @@
+[project]
+name = "annihilation-prediction"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Grégoire Ciles",email = "bonjour@gregoireciles.fr"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas (>=2.3.1,<3.0.0)",
+    "statsmodels (>=0.14.5,<0.15.0)",
+    "numpy (>=2.3.1,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
